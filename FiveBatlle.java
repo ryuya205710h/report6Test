@@ -17,13 +17,13 @@ public class FiveBatlle {
             String j = jadge.jugde(user.getUser(),pc.getPc());
             if(j.equals(w)){
                 u += 1;
-                System.out.println("結果:勝ちだよ〜！");
+                System.out.println("あなた：" + user.getUser() + "　PC:" + pc.getPc() + "　あなたの勝ち！");
             }else if(j.equals(l)){
                 p += 1;
-                System.out.println("結果:負けだよ〜！");
+                System.out.println("あなた：" + user.getUser() + "　PC:" + pc.getPc() + "　PCの勝ち！");
             }else if(j.equals(d)){
                 a += 1;
-                System.out.println("結果:あいこだよ〜！");
+                System.out.println("あなた：" + user.getUser() + "　PC:" + pc.getPc() + "　あいこ！");
             }else{
             }
         }
